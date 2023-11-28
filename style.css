@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: #fff; /* Change to white text color for better visibility on black background */
+    background-color: whitesmoke; /* Change to black background color */
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-div {
+    border-color: #3498db;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px #fff, 5px 5px 12px rgba(0, 0, 0, 0.14);
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+}
+
+input {
+    grid-column: span 4;
+    width: 260px;
+    height: 70px;
+    background-color: #000; /* Change to black background color */
+    border: none;
+    box-shadow: inset -5px -5px 12px #fff, 5px 5px 12px rgba(0, 0, 0, 0.14);
+    border-radius: 30px;
+    outline: none;
+    font-size: 50px;
+    text-align: end;
+    margin: 40px auto;
+    padding: 10px;
+    color: #fff; /* Change to white text color */
+}
+
+input::placeholder {
+    color: #8b25ff;
+}
+
+button {
+    width: 48px;
+    height: 48px;
+    background-color: #000; /* Change to black color */
+    box-shadow: -5px -5px 12px #fff, 5px 5px 12px rgba(0, 0, 0, 0.14);
+    border-radius: 50%;
+    border: none;
+    margin: 8px auto;
+}
+
+.large-box {
+    width: 115px;
+    border-radius: 40px;
+    margin: 8px 12px;
+    background-color: #000; /* Change to black color */
+}
